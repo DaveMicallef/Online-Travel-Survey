@@ -1,0 +1,28 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Survey</title>
+</head>
+<body>
+    <h1>Travel Survey</h1>
+    <form action="/submit" method="POST">
+        <label for="from">Where did you travel from?</label><br>
+        <input type="text" id="from" name="from" required><br><br>
+
+        <label for="to">Where did you travel to?</label><br>
+        <input type="text" id="to" name="to" required><br><br>
+
+        <label for="mode">Mode of transport:</label><br>
+        <input type="text" id="mode" name="mode" required><br><br>
+
+        <label for="purpose">Purpose of travel:</label><br>
+        <input type="text" id="purpose" name="purpose" required><br><br>
+
+        <button type="submit" value="Submit">
+    </form>
+</body>
+</html>
